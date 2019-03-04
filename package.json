@@ -1,0 +1,33 @@
+{
+  "name": "react.timer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmu332233/react.timer.git"
+  },
+  "author": "minung.han",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmu332233/react.timer/issues"
+  },
+  "homepage": "https://github.com/hmu332233/react.timer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
